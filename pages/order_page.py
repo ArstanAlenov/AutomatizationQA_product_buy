@@ -16,7 +16,7 @@ class Order_page(Base):
 
 
     add_dop_product = "//a[contains(text(), 'Музыкальные курсы')]"     #в корзине добавляем доп. продукт
-    course_git = "(//a[@data-role='cart-product-add'])[13]"            # добавляем курсы по игре на гитаре
+    course_git = "(//a[@data-role='cart-product-add'])[12]"            # добавляем курсы по игре на гитаре
     cont_registration = "//button[@class='button button-orange js-buy-btn']"   #нажимаем на кнопку "Продолжить оформление"
 
     # Getters

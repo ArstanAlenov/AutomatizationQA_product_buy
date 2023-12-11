@@ -46,23 +46,23 @@ class Login_page(Base):
 
     def click_to_come_in_main_page(self):
         self.get_to_come_in_main_page().click()
-        print("Click to_come_in_main_page")
+        print("Нажмаем 'Войти'")
 
     def click_to_come_in_pass(self):
         self.get_to_come_in_pass().click()
-        print("Click to_come_in_pass")
+        print("Нажимаем 'Войти с помощью пароля'")
 
     def input_email(self, email):
         self.get_email().send_keys(email)
-        print("Input email")
+        print("Вводим логин")
 
     def input_password(self, password):
         self.get_password().send_keys(password)
-        print("Input password")
+        print("Вводим пароль")
 
     def click_sign_in(self):
         self.get_sign_in().click()
-        print("Click sign_in")
+        print("Нажимаем 'Войти'")
 
     # Methods
 

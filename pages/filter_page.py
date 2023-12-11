@@ -53,7 +53,7 @@ class Filter_page(Base):
 
     def click_gitars(self):
         self.get_gitars().click()
-        print("Нажимаем на 'Гитары")
+        print("Нажимаем на 'Гитары'")
 
     def click_acoustics_git(self):
         self.get_acoustics_git().click()
