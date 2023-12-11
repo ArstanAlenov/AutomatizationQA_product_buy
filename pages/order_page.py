@@ -53,4 +53,5 @@ class Order_page(Base):
         self.click_add_dop_product()
         self.click_course_git()
         self.click_cont_registration()
+        self.get_screenshot()
 

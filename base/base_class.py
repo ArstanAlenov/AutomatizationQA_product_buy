@@ -24,3 +24,11 @@ class Base():
         get_url = self.driver.current_url
         assert get_url == result
         print("Good value url")
+
+    """Method Screenshot"""
+
+    def get_screenshot(self):
+        now_date = datetime.datetime.utcnow().strftime("%Y.%m.%d.%H.%M.%S")
+        name_screenshot = 'screenshot' + now_date + '.png'
+        self.driver.save_screenshot(
+            f'C:\\Users\\User.WSA34411\\PycharmProjects\\pythonMainProjectMuzTorg\\screen\\ {name_screenshot}')

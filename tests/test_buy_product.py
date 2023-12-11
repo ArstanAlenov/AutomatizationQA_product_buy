@@ -13,7 +13,7 @@ from pages.main_page_choice_product import Main_page_choice_product
 from pages.order_page import Order_page
 
 
-def test_buy_product():
+def test_buy_product(set_up, set_group):
     options = webdriver.ChromeOptions()
     options.add_experimental_option("detach", True)
     g = Service('C:\\Users\\User.WSA34411\\PycharmProjects\\resource\\chromedriver.exe')
