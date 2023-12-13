@@ -72,8 +72,8 @@ class Login_page(Base):
         self.get_current_url()
         self.click_to_come_in_main_page()
         self.click_to_come_in_pass()
-        self.input_email("autotestingqa@mail.ru")
-        self.input_password("SeleniuM1985")
+        self.input_email("")
+        self.input_password("")
         self.click_sign_in()
         self.assert_word(self.get_main_word(), 'Личный кабинет')
 
